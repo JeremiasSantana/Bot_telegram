@@ -1,0 +1,6 @@
+*config_menu.py
+.env
+.vscode
+*uteis/menu/
+.mypy_cache
+*__pycache__

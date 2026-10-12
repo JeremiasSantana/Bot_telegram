@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jota-bot"
+version = "0.1.0"
+description = ""
+authors = ["the_jota <jeremiassantana50@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.15"
+aiogram = "^3.31.0"
+dotenv = "^0.9.9"
+requests = "^2.34.2"
+yt-dlp = "^2026.8.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
